@@ -27,7 +27,6 @@ class PSDscene extends PSD
 		bounds.updateRect();
 		
 		resize();
-		//Application.STAGE.addEventListener(AppEvent.RESIZE, resize);
 	}
 	
 	override public function update():Void {if(!paused)super.update();}

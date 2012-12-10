@@ -45,7 +45,7 @@ class MState extends State
 	{
 		if (Debug) trace("exit ::" + type);
 		scene.stopTweens();
-		scene.dispose();
+		scene.clear();
 		sound.fadeOutAll(2);
 		Actuate.timer(2).onComplete(sound.closeAll);
 	}

@@ -166,13 +166,18 @@ class Msprite extends Display
 	public function reverse():Msprite { back = back?false:true; return this; }
 	
 	override public function dispose():Void {
+		clear();
+		super.dispose();
+	}
+	
+	public inline function clear():Void
+	{
 		anims=null;
 		clearFrames();
 		while (numChildren > 0) {
 			var s = removeChildAt(0);
 			if (Std.is(s, Display)) cast(s, Display).dispose();
-		}
-		super.dispose();
+		}		
 	}
 	
 	public function scale(v:Float):Void {

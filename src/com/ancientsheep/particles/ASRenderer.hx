@@ -106,16 +106,9 @@ class ASRenderer {
 		m.rotate(particle.rotation);m.scale(scale, scale);
 		m.translate(particle.pos.x+ox, particle.pos.y+oy);
 		
-		//graphics.beginBitmapFill(texture, m, false);
-		//graphics.drawRect(particle.pos.x-rect.width/2, particle.pos.y-rect.height/2, rect.width, rect.height);
 		screen.bitmapData.draw(texture, m, transform, add_blend?BlendMode.ADD:BlendMode.NORMAL);
-		//graphics.beginFill(transform.color, particle.color.a);
-		//graphics.drawRect(particle.pos.x, particle.pos.y, particle.scale,particle.scale);
 		}
 		screen.bitmapData.unlock();
-		//graphics.clear();
-		//graphics.beginFill(0xFF0000, .5);
-		//graphics.drawRect(owner.bounds.x, owner.bounds.y, owner.bounds.width, owner.bounds.height);
 		
 		#else
 		

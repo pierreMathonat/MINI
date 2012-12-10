@@ -1,5 +1,9 @@
 package com.mini.actions;
+import com.mini.Application;
+import com.mini.mesh.LineMesh;
+import com.mini.mesh.Mesh;
 import haxe.FastList;
+import nme.Assets;
 import nme.display.Sprite;
 import nme.events.MouseEvent;
 import nme.geom.Point;
@@ -28,6 +32,9 @@ class Input extends Sprite
 	
 	static var ACTIONS_LIST:List<Action> = new List<Action>();
 	
+	public var BladeBuffer:BUFFER;
+	public var Blade:LineMesh;
+	
 	public static function registerAction(a:Action):Void
 	{
 		ACTIONS_LIST.remove(a);
@@ -48,7 +55,8 @@ class Input extends Sprite
 		super();
 		state = 0;
 		drawMoves = true;
-		Touch.graphics = graphics;
+		
+		Blade = new LineMesh(BladeBuffer = new BUFFER(Assets.getBitmapData("particles/blade.png",false)));
 		
 		Application.STAGE.addEventListener(MouseEvent.MOUSE_DOWN, mDown);
 		Application.STAGE.addEventListener(MouseEvent.MOUSE_MOVE, mMove);
@@ -98,15 +106,14 @@ class Input extends Sprite
 			}
 		}
 		
-		//trace("INPUT::UPDATE");
 		if (state == JUST_PRESSED) state = PRESSED;
 		if (state == RELEASED) state = 0;
+				
+		if (pressed() && moving) Blade.addPoint(mx, my);
+		Blade.update();
+		graphics.clear();
+		BladeBuffer.render(graphics, true, false);
 		
-		
-		Touch.update();
-		if (pressed()) {
-			Touch.touches.push(new Touch(cacheX, cacheY, mx, my, 10, 0xFFFFFF));
-		}
 		cacheX = mx; cacheY = my;
 		
 		if (moving) moving = false;
@@ -115,53 +122,4 @@ class Input extends Sprite
 	public static function pressed():Bool {return state > 0;}
 	public static function justPressed():Bool {return state == 1;}
 	public static function released():Bool {return state < 0;}
-}
-
-
-//--------------------------------------------------------------------------------------------------------
-
-
-class Touch
-{
-	public static var touches:Array<Touch> = new Array<Touch>();
-	
-	public var sX:Int;
-	public var sY:Int;
-	public var eX:Int;
-	public var eY:Int;
-	public var lineSize:Float;
-	public var color:Int;
-	public static var graphics:Graphics;
-		
-	public function new(_sX:Int, _sY:Int, _eX:Int, _eY:Int, _lineSize:Float, _color:Int) {
-		touches.push(this);
-		sX = _sX;	eX = _eX;
-		sY = _sY;	eY = _eY;
-		
-		lineSize = _lineSize;
-		color = _color;
-	}
-	
-	inline public function getAngle():Float {
-		return Math.atan2(eY - sY, eX-sX) * 180 / Math.PI;
-	}
-	
-	public static function update():Void {
-		
-		graphics.clear();
-		if (touches.length < 1) return;
-		
-		var t = touches[0];
-		graphics.moveTo(t.sX, t.sY);
-				
-		for (touch in touches) {			
-			graphics.lineStyle(touch.lineSize, touch.color, 1, false);
-			graphics.lineTo(touch.eX, touch.eY);
-			touch.lineSize-=.5;
-			
-			if (touch.lineSize < 1) {
-				touches.remove(touch);
-			}
-		}
-	}
 }
