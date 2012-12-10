@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x003C52" frameColor="0xDFD6D4">
+
+	<folder name="all" x="17" y="-2160">
+
+		<folder name="tv" x="0" y="0">
+
+		<folder name="oldTv" x="34" y="0">
+
+		<layer name="oldTv_0" link="oldTv_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="nes" x="0" y="560">
+
+		<layer name="nes_0" link="nes_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="bg" x="100" y="49">
+
+		<layer name="bg_0" link="bg_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="startScreen" x="100" y="138">
+
+		<folder name="stars" x="0" y="11">
+
+		<layer name="stars_0" link="stars_0.png" x="0" y="0"/>
+
+	<layer name="stars_1" link="stars_1.png" x="0" y="0"/>
+
+	<layer name="stars_2" link="stars_2.png" x="0" y="4"/>
+
+	</folder>
+
+	<folder name="miniPong" x="112" y="0">
+
+		<layer name="miniPong_0" link="miniPong_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="startText" x="204" y="260">
+
+		<layer name="startText_0" link="startText_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="pong" x="102" y="49">
+
+		<folder name="player" x="28" y="164">
+
+		<layer name="player_0" link="player_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="ai" x="510" y="164">
+
+		<layer name="ai_0" link="ai_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="ball" x="276" y="211">
+
+		<layer name="ball_0" link="ball_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="line" x="0" y="0">
+
+		<layer name="line_0" link="line_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	</folder>
+
+	<folder name="pad" x="86" y="778">
+
+		<folder name="padStroke" x="259" y="0">
+
+		<layer name="padStroke_0" link="padStroke_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="padBody" x="0" y="1631">
+
+		<layer name="padBody_0" link="padBody_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="title2" x="247" y="173">
+
+		<layer name="title2_0" link="title2_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="title1" x="699" y="2444">
+
+		<layer name="title1_0" link="title1_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+</data>

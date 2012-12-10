@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x001929" frameColor="0xF4E851">
+
+	<folder name="spaceman" x="69" y="294">
+
+		<folder name="man" x="0" y="0">
+
+		<layer name="man_0" link="man_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="title" x="28" y="31">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>

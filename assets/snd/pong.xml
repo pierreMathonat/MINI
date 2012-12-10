@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<sound name="start" 	path="pong_start"		></sound>
+<sound name="player" 	path="pong_player"		></sound>
+<sound name="ai" 		path="pong_ai"			></sound>
+<sound name="endGame" 	path="pong_endGame"		></sound>
+<sound name="music" 	path="pong_music"		></sound>
+
+</data>

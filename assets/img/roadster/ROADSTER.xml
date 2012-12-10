@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0xE0E7DD" frameColor="0x306B81">
+
+	<folder name="landscape" x="-116" y="4">
+
+		<folder name="background" x="0" y="419">
+
+		<folder name="back" x="0" y="0">
+
+		<layer name="back_0" link="back_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="houses" x="1013" y="13">
+
+		<layer name="houses_0" link="houses_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="main" x="41" y="0">
+
+		<folder name="ground" x="0" y="0">
+
+		<layer name="ground_0" link="ground_0.png" x="0" y="475"/>
+
+	<folder name="ground2" x="668" y="0">
+
+		<layer name="ground2_0" link="ground2_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="fils" x="62" y="252">
+
+		<layer name="fils_0" link="fils_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="bar" x="343" y="386">
+
+		<layer name="bar_0" link="bar_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="gas" x="928" y="410">
+
+		<layer name="gas_0" link="gas_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="burger" x="961" y="300">
+
+		<layer name="burger_0" link="burger_0.png" x="0" y="0"/>
+
+	<folder name="welcome_light" x="14" y="32">
+
+		<layer name="welcome_light_0" link="welcome_light_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="burger_light" x="17" y="104">
+
+		<layer name="burger_light_0" link="burger_light_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	</folder>
+
+	<folder name="foreground" x="112" y="193">
+
+		<layer name="foreground_0" link="foreground_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="close" x="897" y="66">
+
+		<layer name="close_0" link="close_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0xA1794D" frameColor="0xFFD300">
+
+	<folder name="wanted" x="291" y="21">
+
+		<folder name="title" x="87" y="218">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="bottom" x="0" y="457">
+
+		<layer name="bottom_0" link="bottom_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="top" x="3" y="0">
+
+		<layer name="top_0" link="top_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="center" x="14" y="116">
+
+		<layer name="center_0" link="center_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+</data>

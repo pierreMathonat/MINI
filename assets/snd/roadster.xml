@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<sound name="voice"		path="roadster_voice">		</sound>
+<sound name="ambiance"	path="roadster_ambiance">	</sound>
+</data>

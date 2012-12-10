@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x7DB61A" frameColor="0xFFFFFF">
+
+	<folder name="egg" x="283" y="283">
+
+		<folder name="bottom" x="0" y="63">
+
+		<layer name="bottom_0" link="bottom_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="top" x="57" y="0">
+
+		<layer name="top_0" link="top_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="fissure" x="56" y="35">
+
+		<layer name="fissure_0" link="fissure_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="drop" x="10" y="75">
+
+		<layer name="drop_0" link="drop_0.png" x="44" y="0"/>
+
+	<layer name="drop_1" link="drop_1.png" x="39" y="0"/>
+
+	<layer name="drop_2" link="drop_2.png" x="35" y="0"/>
+
+	<layer name="drop_3" link="drop_3.png" x="30" y="0"/>
+
+	<layer name="drop_4" link="drop_4.png" x="23" y="0"/>
+
+	<layer name="drop_5" link="drop_5.png" x="19" y="0"/>
+
+	<layer name="drop_6" link="drop_6.png" x="14" y="0"/>
+
+	<layer name="drop_7" link="drop_7.png" x="5" y="0"/>
+
+	<layer name="drop_8" link="drop_8.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="drop1" x="192" y="75">
+
+		<layer name="drop1_0" link="drop1_0.png" x="1" y="23"/>
+
+	<layer name="drop1_1" link="drop1_1.png" x="1" y="22"/>
+
+	<layer name="drop1_2" link="drop1_2.png" x="1" y="19"/>
+
+	<layer name="drop1_3" link="drop1_3.png" x="1" y="13"/>
+
+	<layer name="drop1_4" link="drop1_4.png" x="1" y="10"/>
+
+	<layer name="drop1_5" link="drop1_5.png" x="0" y="7"/>
+
+	<layer name="drop1_6" link="drop1_6.png" x="0" y="4"/>
+
+	<layer name="drop1_7" link="drop1_7.png" x="0" y="3"/>
+
+	<layer name="drop1_8" link="drop1_8.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="title" x="379" y="137">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>

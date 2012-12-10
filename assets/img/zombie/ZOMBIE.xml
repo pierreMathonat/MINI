@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0xB09268" frameColor="0x6F2621">
+
+	<folder name="title" x="387" y="241">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="head" x="358" y="426">
+
+		<layer name="head_0" link="head_0.png" x="10" y="12"/>
+
+	<folder name="blood" x="39" y="57">
+
+		<layer name="blood_0" link="blood_0.png" x="0" y="0"/>
+
+	<layer name="blood_1" link="blood_1.png" x="0" y="0"/>
+
+	<layer name="blood_2" link="blood_2.png" x="0" y="0"/>
+
+	<layer name="blood_3" link="blood_3.png" x="0" y="0"/>
+
+	<layer name="blood_4" link="blood_4.png" x="0" y="0"/>
+
+	<layer name="blood_5" link="blood_5.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="eyes" x="48" y="66">
+
+		<layer name="eyes_0" link="eyes_0.png" x="0" y="20"/>
+
+	<layer name="eyes_1" link="eyes_1.png" x="0" y="18"/>
+
+	<layer name="eyes_2" link="eyes_2.png" x="0" y="14"/>
+
+	<layer name="eyes_3" link="eyes_3.png" x="0" y="0"/>
+
+	<layer name="eyes_4" link="eyes_4.png" x="2" y="8"/>
+
+	<layer name="eyes_5" link="eyes_5.png" x="3" y="17"/>
+
+	</folder>
+
+	<folder name="anchor" x="221" y="89">
+
+		<layer name="anchor_0" link="anchor_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="top" x="23" y="0">
+
+		<layer name="top_0" link="top_0.png" x="0" y="0"/>
+
+	<layer name="top_1" link="top_1.png" x="0" y="8"/>
+
+	<layer name="top_2" link="top_2.png" x="2" y="18"/>
+
+	</folder>
+
+	<folder name="choc" x="0" y="30">
+
+		<layer name="choc_0" link="choc_0.png" x="0" y="0"/>
+
+	<layer name="choc_1" link="choc_1.png" x="0" y="0"/>
+
+	<layer name="choc_2" link="choc_2.png" x="0" y="0"/>
+
+	<layer name="choc_3" link="choc_3.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="zombie" x="286" y="-572">
+
+		<layer name="zombie_0" link="zombie_0.png" x="36" y="0"/>
+
+	<folder name="hands" x="0" y="648">
+
+		<layer name="hands_0" link="hands_0.png" x="0" y="0"/>
+
+	<layer name="hands_1" link="hands_1.png" x="3" y="6"/>
+
+	<layer name="hands_2" link="hands_2.png" x="6" y="7"/>
+
+	<layer name="hands_3" link="hands_3.png" x="11" y="6"/>
+
+	<layer name="hands_4" link="hands_4.png" x="3" y="6"/>
+
+	<layer name="hands_5" link="hands_5.png" x="3" y="7"/>
+
+	<layer name="hands_6" link="hands_6.png" x="22" y="8"/>
+
+	<layer name="hands_7" link="hands_7.png" x="33" y="16"/>
+
+	<layer name="hands_8" link="hands_8.png" x="41" y="16"/>
+
+	</folder>
+
+	</folder>
+
+</data>

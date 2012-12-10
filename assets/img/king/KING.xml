@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x403F42" frameColor="0xFE0000">
+
+	<folder name="blood" x="229" y="216">
+
+		<layer name="blood_0" link="blood_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="king" x="284" y="66">
+
+		<folder name="body" x="0" y="321">
+
+		<layer name="body_0" link="body_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="head" x="13" y="87">
+
+		<layer name="head_0" link="head_0.png" x="0" y="0"/>
+
+	<folder name="eyes" x="124" y="101">
+
+		<layer name="eyes_0" link="eyes_0.png" x="1" y="9"/>
+
+	<layer name="eyes_1" link="eyes_1.png" x="1" y="8"/>
+
+	<layer name="eyes_2" link="eyes_2.png" x="1" y="7"/>
+
+	<layer name="eyes_3" link="eyes_3.png" x="1" y="5"/>
+
+	<layer name="eyes_4" link="eyes_4.png" x="0" y="1"/>
+
+	<layer name="eyes_5" link="eyes_5.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="crown" x="173" y="0">
+
+		<layer name="crown_0" link="crown_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="title" x="402" y="207">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>

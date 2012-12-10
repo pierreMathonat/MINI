@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<sound name="start" 		path="scientist_start">			</sound>
+<sound name="voices" 		path="scientist_voices">		</sound>
+<sound name="explosion1" 	path="scientist_explosion1">	</sound>
+<sound name="explosion2" 	path="scientist_explosion2">	</sound>
+<sound name="ambiance" 		path="scientist_ambiance">		</sound>
+</data>

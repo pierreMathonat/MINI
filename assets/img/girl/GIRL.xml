@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x656A7F" frameColor="0xFCDBC4">
+
+	<folder name="title" x="62" y="56">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="girl" x="329" y="142">
+
+		<layer name="girl_0" link="girl_0.png" x="0" y="0"/>
+
+	<layer name="girl_1" link="girl_1.png" x="1" y="0"/>
+
+	<layer name="girl_2" link="girl_2.png" x="48" y="1"/>
+
+	<layer name="girl_3" link="girl_3.png" x="47" y="1"/>
+
+	<folder name="eyes" x="120" y="111">
+
+		<layer name="eyes_0" link="eyes_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="mouth" x="158" y="158">
+
+		<layer name="mouth_0" link="mouth_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="camera" x="35" y="40">
+
+		<folder name="2" x="788" y="0">
+
+		<layer name="2_0" link="2_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="3" x="0" y="481">
+
+		<layer name="3_0" link="3_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="4" x="0" y="0">
+
+		<layer name="4_0" link="4_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="1" x="788" y="481">
+
+		<layer name="1_0" link="1_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+</data>

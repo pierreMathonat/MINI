@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="259 px" height="98 px" bgColor="0x000000" frameColor="0xFFFFFF">
+
+	<folder name="cars" x="4" y="-5">
+
+		<layer name="cars_0" link="cars_0.png" x="128" y="5"/>
+
+	<layer name="cars_1" link="cars_1.png" x="128" y="5"/>
+
+	<layer name="cars_2" link="cars_2.png" x="0" y="0"/>
+
+	<layer name="cars_3" link="cars_3.png" x="15" y="12"/>
+
+	<layer name="cars_4" link="cars_4.png" x="34" y="16"/>
+
+	</folder>
+
+</data>

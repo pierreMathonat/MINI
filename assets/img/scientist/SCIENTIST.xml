@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x003248" frameColor="0x97A5D0">
+
+	<folder name="Fire" x="322" y="196">
+
+		<layer name="fire0" link="fire0.png" x="29" y="33"/>
+
+	<layer name="fire1" link="fire1.png" x="5" y="9"/>
+
+	<layer name="fire2" link="fire2.png" x="1" y="3"/>
+
+	<layer name="fire3" link="fire3.png" x="0" y="0"/>
+
+	<layer name="fire4" link="fire4.png" x="3" y="1"/>
+
+	<layer name="fire5" link="fire5.png" x="7" y="6"/>
+
+	<layer name="fire6" link="fire6.png" x="12" y="11"/>
+
+	<layer name="fire7" link="fire7.png" x="22" y="20"/>
+
+	<layer name="fire8" link="fire8.png" x="54" y="61"/>
+
+	</folder>
+
+	<folder name="all_body" x="303" y="151">
+
+		<folder name="body" x="0" y="220">
+
+		<layer name="body_0" link="body_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="head" x="62" y="0">
+
+		<layer name="head_0" link="head_0.png" x="0" y="0"/>
+
+	<folder name="eyes" x="83" y="157">
+
+		<layer name="eyes_0" link="eyes_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="suie" x="54" y="55">
+
+		<layer name="suie_0" link="suie_0.png" x="0" y="0"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="hands" x="103" y="336">
+
+		<layer name="hands_0" link="hands_0.png" x="11" y="0"/>
+
+	<layer name="hands_1" link="hands_1.png" x="11" y="5"/>
+
+	<layer name="hands_2" link="hands_2.png" x="8" y="6"/>
+
+	<layer name="hands_3" link="hands_3.png" x="0" y="7"/>
+
+	</folder>
+
+	<folder name="explosion" x="10" y="115">
+
+		<layer name="explosion_0" link="explosion_0.png" x="152" y="233"/>
+
+	<layer name="explosion_1" link="explosion_1.png" x="129" y="204"/>
+
+	<layer name="explosion_2" link="explosion_2.png" x="108" y="173"/>
+
+	<layer name="explosion_3" link="explosion_3.png" x="91" y="153"/>
+
+	<layer name="explosion_4" link="explosion_4.png" x="89" y="104"/>
+
+	<layer name="explosion_5" link="explosion_5.png" x="38" y="48"/>
+
+	<layer name="explosion_6" link="explosion_6.png" x="0" y="2"/>
+
+	<layer name="explosion_7" link="explosion_7.png" x="0" y="0"/>
+
+	<layer name="explosion_8" link="explosion_8.png" x="0" y="0"/>
+
+	<layer name="explosion_9" link="explosion_9.png" x="20" y="5"/>
+
+	<layer name="explosion_10" link="explosion_10.png" x="25" y="22"/>
+
+	<layer name="explosion_11" link="explosion_11.png" x="25" y="34"/>
+
+	</folder>
+
+	</folder>
+
+	<folder name="title" x="403" y="29">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>

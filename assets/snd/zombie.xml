@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<sound name="ambiance" 		path="zombie_ambiance">		</sound>
+	<sound name="choc1" 		path="zombie_choc1">		</sound>
+	<sound name="choc2" 		path="zombie_choc2">		</sound>
+	<sound name="choc3" 		path="zombie_choc3">		</sound>
+	<sound name="grogne1" 		path="zombie_grogne1">		</sound>
+	<sound name="grogne2" 		path="zombie_grogne2">		</sound>
+</data>

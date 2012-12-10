@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="32 px" height="32 px" bgColor="0x000000" frameColor="0xFFFFFF">
+
+	<folder name="close_button" x="0" y="0">
+
+		<layer name="close_button_0" link="close_button_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>

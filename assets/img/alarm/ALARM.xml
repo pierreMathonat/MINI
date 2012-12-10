@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0x8DCDC5" frameColor="0x99EFBB">
+
+	<folder name="table" x="33" y="384">
+
+		<layer name="table_0" link="table_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="alarm" x="268" y="244">
+
+		<layer name="alarm_0" link="alarm_0.png" x="0" y="41"/>
+
+	<layer name="alarm_1" link="alarm_1.png" x="0" y="41"/>
+
+	<layer name="alarm_2" link="alarm_2.png" x="0" y="41"/>
+
+	<layer name="alarm_3" link="alarm_3.png" x="0" y="41"/>
+
+	<layer name="alarm_4" link="alarm_4.png" x="0" y="4"/>
+
+	<layer name="alarm_5" link="alarm_5.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="anchor" x="0" y="0">
+
+		</folder>
+
+	<folder name="title" x="446" y="104">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="hand" x="479" y="69">
+
+		<layer name="hand_0" link="hand_0.png" x="59" y="48"/>
+
+	<layer name="hand_1" link="hand_1.png" x="38" y="74"/>
+
+	<layer name="hand_2" link="hand_2.png" x="20" y="69"/>
+
+	<layer name="hand_3" link="hand_3.png" x="39" y="61"/>
+
+	<layer name="hand_4" link="hand_4.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="sparks" x="615" y="443">
+
+		<layer name="sparks_0" link="sparks_0.png" x="155" y="26"/>
+
+	<layer name="sparks_1" link="sparks_1.png" x="179" y="33"/>
+
+	<layer name="sparks_2" link="sparks_2.png" x="155" y="0"/>
+
+	<layer name="sparks_3" link="sparks_3.png" x="73" y="31"/>
+
+	<layer name="sparks_4" link="sparks_4.png" x="0" y="21"/>
+
+	<layer name="sparks_5" link="sparks_5.png" x="106" y="24"/>
+
+	<layer name="sparks_6" link="sparks_6.png" x="188" y="20"/>
+
+	</folder>
+
+</data>

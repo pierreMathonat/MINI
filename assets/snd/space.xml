@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<sound name="voice1" 	path="space_voice1"		></sound>
+<sound name="voice2" 	path="space_voice2"		></sound>
+<sound name="voice3" 	path="space_voice3"		></sound>
+<sound name="voice4" 	path="space_voice4"		></sound>
+<sound name="voice5" 	path="space_voice5"		></sound>
+<sound name="voice6" 	path="space_voice6"		></sound>
+<sound name="voice7" 	path="space_voice7"		></sound>
+<sound name="ambiance" 	path="space_ambiance"	></sound>
+</data>

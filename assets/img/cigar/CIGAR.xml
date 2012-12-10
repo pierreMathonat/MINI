@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data width="960 px" height="640 px" bgColor="0xCDA879" frameColor="0x18A096">
+
+	<folder name="cigar" x="393" y="319">
+
+		<layer name="cigar_0" link="cigar_0.png" x="0" y="0"/>
+
+	</folder>
+
+	<folder name="title" x="393" y="198">
+
+		<layer name="title_0" link="title_0.png" x="0" y="0"/>
+
+	</folder>
+
+</data>
