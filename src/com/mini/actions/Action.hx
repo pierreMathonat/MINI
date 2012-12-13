@@ -248,6 +248,8 @@ class FlipAction extends Action
 	var back:Msprite;
 	var backM:Msprite;
 	var shadow:Msprite;
+	var mousePoint:Point;
+	var targetPoint:Point;
 	
 	public function new(target:Msprite) {
 		super(target);
@@ -259,10 +261,18 @@ class FlipAction extends Action
 	function startFlip(e):Void {
 		if (!initiated) init(e);
 		LISTEN_MOUSE_MOVE = true;
+		flip(e);
+		addEventListener(Event.ENTER_FRAME, tweenFlip);
 	}
 	
 	function endFlip(e):Void {
 		LISTEN_MOUSE_MOVE = false;
+		removeEventListener(Event.ENTER_FRAME, tweenFlip);
+		if (mousePoint.x <= back.width*1.5) {
+			Actuate.tween(mousePoint, 1, { x:0, y:2 } ).onUpdate(function() { tweenFlip(null); } );
+		} else {
+			onActionCompleted();
+		}
 	}
 	
 	override public function onMouseDown(e):Void 
@@ -280,31 +290,42 @@ class FlipAction extends Action
 		flip(e);
 	}
 	
+	function tweenFlip(e):Void 
+	{
+		targetPoint.x += (mousePoint.x - targetPoint.x) * .4;
+		targetPoint.y += (mousePoint.y - targetPoint.y) * .4;
+		
+		if (targetPoint.x < 0) targetPoint.x = 0;
+		
+		var a:Float = Utils.angle(0, 0, targetPoint.x, targetPoint.y)/180*Math.PI;
+		var halpPoint:Point = Point.interpolate(new Point(), targetPoint,.5);
+		var d:Float = Point.distance(new Point(), halpPoint);
+		
+		backM.rotation = targetM.rotation = a/Math.PI*180;
+		backM.x = targetM.x = halpPoint.x - Math.cos(a+Math.PI/2)*back.height;
+		backM.y = targetM.y = halpPoint.y- Math.sin(a+Math.PI/2)*back.height;
+		
+		a = Math.atan2(targetPoint.y, targetPoint.x-(d)/Math.cos(a));
+		back.x = targetPoint.x;
+		back.y = targetPoint.y;
+		back.rotation = a*180/Math.PI;
+		
+	}
 	function flip(e):Void 
 	{
-		var p = new Point(e.stageX,e.stageY);
-		p = Mtarget.globalToLocal(p);
-		
-		if (p.x < 0) p.x = 0;
-		
-		targetM.x = p.x * .5;
-		backM.x = targetM.x;
-		back.x = p.x;
-				
-		if (p.x > targetM.width*.8) {
-			endFlip(e);
-			onActionCompleted();
-		}
+		mousePoint = new Point(e.stageX,e.stageY);
+		mousePoint = Mtarget.globalToLocal(mousePoint);
 	}
 	
 	function init(e):Void {
 		
 		initiated = true;
+		targetPoint = new Point();
 		
 		Mtarget.addChild(back = new Msprite());
 		Mtarget.addChild(backM = new Msprite());
 		Mtarget.addChild(targetM = new Msprite());
-			back.scaleX = -1;	
+		back.scaleX = -1;	
 		back.addFrame(Mtarget.bitmap.bitmapData);
 		
 		#if(flash)
@@ -314,7 +335,7 @@ class FlipAction extends Action
 		back.mask = backM;
 		Mtarget.mask = targetM;
 		
-		backM.drawRect(0xFFFFFF,1,0, 0, back.width, back.height);
-		targetM.drawRect(0xFFFFFF,1,0, 0, Mtarget.width, Mtarget.height);
+		backM.drawRect(0xFF00FF,1,0, 0, back.width*2, back.height*3);
+		targetM.drawRect(0xFFFF00,1,0, 0, Mtarget.width, Mtarget.height);
 	}
 }
